@@ -95,6 +95,7 @@
                     "description": "<description>",
                     "image_url": "<image_url>"
                 },
+                {    
                     "id": "<soil_id>",
                     "soil_name": "<soil_name>",
                     "description": "<description>",
