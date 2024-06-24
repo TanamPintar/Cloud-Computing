@@ -88,19 +88,20 @@
     ```json 
     {
         "status"    : "success",
-        "data"      : {
-            "<soil_id>": {
-                "soil_name": "<soil_name>",
-                "description": "<description>",
-                "image_url": "<image_url>"
-            },
-            "<soil_id>": {
-                "soil_name": "> soil_name <",
-                "description": "> description <",
-                "image_url": "> image_url <"
-            },
-            ...
-        }
+        "data"      : [
+                {
+                    "id": "<soil_id>"
+                    "soil_name": "<soil_name>",
+                    "description": "<description>",
+                    "image_url": "<image_url>"
+                },
+                    "id": "<soil_id>",
+                    "soil_name": "<soil_name>",
+                    "description": "<description>",
+                    "image_url": "<image_url>"
+                },
+                ...
+        ]
     }
     ```
 
@@ -157,19 +158,21 @@
     ```json 
     {
         "status"    : "success",
-        "data"      : {
-            "<plant_id>": {
+        "data"      : [
+            {
+                "id": "<plant_id>",
                 "plant_name": "<plant_name>",
                 "description": "<description>",
                 "image_url": "<image_url>"
             },
-            "<plant_id>": {
-                "plant_name": "> plant_name <",
-                "description": "> description <",
-                "image_url": "> image_url <"
+            {
+                "id": "<plant_id>",
+                "plant_name": "<plant_name>",
+                "description": "<description>",
+                "image_url": "<image_url>"
             },
             ...
-        }
+        ]
     }
     ```
 
