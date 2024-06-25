@@ -202,7 +202,7 @@
         "data"      : {
             "id": "<plant_id>",
             "plant_name": "<plant_name>",
-            "description": "<description>",
+            "soil_type": "<soil_type>",
             "image_url": "<image_url>"
         }
     }
